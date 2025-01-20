@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>titull</title>
+    <style>
+       .c1{
+            width: 200px;
+            height: 200px;
+          border:20px solid green;
+          border-bottom-right-radius:50px;
+          border-bottom-left-radius:40px;
+          border-top-right-radius:30px;
+          border-top-left-radius:20px;
+          border-image: url(HD-wallpaper-multicolored-playground-slide-during-daytime.jpg) 25 25 round;
+
+
+        }
+        .c2{
+            width:300px;
+            height:300px;
+            border:1px solid;
+            background-color: blue;
+            box-shadow: 2px 2px 4px 6px gray
+        }
+        .c3{
+            width:800px;
+            height:800px;
+            background:
+            url(HD-wallpaper-multicolored-playground-slide-during-daytime.jpg) top center no-repeat fixed padding-box content-box red;
+        }
+
+        body{
+            counter-reset:number;
+        }
+        h2::before{
+            counter-increment: number;
+            content: counter(number);
+            background-color: blue;
+            border-radius: 50%;
+            
+        }
+        </style>
+</head>
+<body>
+    <h1>counters</h1>
+    <h2>HTML</H2>
+        <h2>java</h2>
+        <h2>python</h2>
+        <div class="c1">
+
+        </div>
+        <div class="c2">
+
+        </div>
+        <div class="c3"></div>
+
+    
+</body>
+</html>
