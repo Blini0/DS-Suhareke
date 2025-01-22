@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>title</title>
+    <style>
+        .translate{
+            transform: translate(200px,200px);
+            width: 50px;
+            height: 300px;
+            border-radius: 5px;
+            color:green;
+            padding: 10px;
+            transform:rotatex(50deg);
+            transform:rotatey(50deg);
+            transform:rotatez(50deg);
+        
+        }
+        .anim{
+            transition: all 1s ease-out;
+            width: 200px;
+            height: 200px;
+            border: 1px solid;
+        }
+        .anim:hover{
+            transform: translate(200px);
+            width: 400px;
+            height:400px;
+            background-color: blue;
+
+        }
+        </style>
+</head>
+<body>
+    <div class="translate">
+        <p>this is a transformation</p>
+    </div>
+    <div class="anim">
+<p>this is craazy</p>
+    </div>
+</body>
+</html>
